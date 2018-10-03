@@ -1,0 +1,26 @@
+
+/* =Checklist
+   ========================================================================== */
+
+    ul.ewf-checklist { 
+		list-style: none;
+		margin-bottom: 30px;
+	}
+	
+	ul.ewf-checklist li:before { 
+		position: relative;
+		margin-right: 15px;
+		font-family: 'themify';
+		font-size: 15px; 
+	}
+	
+	ul.ewf-checklist li:before { content: "\e64d"; }
+	
+	ul.ewf-checklist li {
+		border-bottom: 1px solid $color-border-general;
+		padding: 9px;
+	}
+	
+	ul.ewf-checklist li:first-child {
+		border-top: 1px solid $color-border-general;
+	}

@@ -1,0 +1,42 @@
+
+/* =Header
+   ========================================================================== */	
+   
+	#header {
+		background-color: $color-background-header;
+		padding: 15px 0;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	}			
+	
+	#header-wrap.is_stuck {
+		position: fixed !important; 
+	}
+	
+	@media (min-width: 768px) {
+		
+		#header-wrap {
+			z-index: 9999;
+			padding: 0;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 30px;
+		}
+	
+	}
+	
+	@media (min-width: 991px) {
+
+		#header-wrap {
+			top: 45px;
+		}	
+	
+	}
+	
+	@media (min-width: 1200px) {
+	
+		#header {
+			padding: 0;
+		}	
+	
+	}	

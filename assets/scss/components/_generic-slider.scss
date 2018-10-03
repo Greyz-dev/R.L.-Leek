@@ -1,0 +1,57 @@
+
+/* =generic Slider
+   ========================================================================== */   
+	
+	.ewf-generic-slider { 
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.ewf-generic-slider__slides {
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+	.ewf-generic-slider__slides li {}	
+
+	.ewf-generic-slider__slides li img {
+		border-radius: 15px;
+	}	
+	
+	.ewf-generic-slider__pager {}
+
+	.ewf-generic-slider__pager .slick-dots {
+		margin: 10px 0;
+		list-style: none;
+		text-align: center;
+	}
+
+	.ewf-generic-slider__pager .slick-dots li {
+		position: relative;
+		z-index: 2;
+		display: inline-block;
+		padding: 0 5px;
+	}	
+
+	.ewf-generic-slider__pager .slick-dots li.slick-active {}
+
+	.ewf-generic-slider__pager .slick-dots li button{
+		display: block;
+		padding: 0;
+		width: 14px;
+		height: 14px;
+		border: 2px solid transparent;
+		border-radius: 50%;
+		cursor: pointer;
+		outline: none;
+		color: transparent;
+		background-color: $color-text-accent-2;
+		background-clip: padding-box;
+		font-size: 0;
+		line-height: 0;
+	}
+
+	.ewf-generic-slider__pager .slick-dots li.slick-active button {
+		border-color: $color-text-accent-1;
+		background-color: transparent;
+	}	

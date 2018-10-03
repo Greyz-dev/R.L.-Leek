@@ -1,0 +1,23 @@
+
+/* ==========================================================================
+   =WordPress Alignments
+   ========================================================================== */	
+
+	.alignleft {
+		float: left;
+		display: inline;
+		margin: 0 1.5em 1.5em 0;
+	}
+
+	.alignright {
+		float: right;
+		display: inline;
+		margin: 0 0 1.5em 1.5em;
+	}
+
+	.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+	}

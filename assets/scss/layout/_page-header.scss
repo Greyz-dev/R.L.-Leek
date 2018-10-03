@@ -1,0 +1,70 @@
+
+/* ==========================================================================
+   =Page Header
+   ========================================================================== */
+   	
+	#page-header { 
+		margin-bottom: 0;
+		background-color: $color-background-page-header;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	
+	#page-header .page-header-title {
+		padding: 60px 0 44px;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		font-weight: 500;
+		line-height: 1;
+		position: relative;
+		font-size: 36px;
+		display: inline-block;
+		z-index: 222;
+	}
+
+	#page-header .page-header-title:after {
+		display: block;
+		margin-top: 30px;
+		width: 90px;
+		border-top: 1px solid $color-text-accent-1;
+		content: '';
+		position: relative;
+		z-index: 2;
+	}		
+	
+	#page-header .page-header-title:before {
+		content: "";
+		background-color: $color-text-accent-2;
+		opacity: 0.85;
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: -75px;
+		height: 100%;
+		width: 100%;
+		padding: 0 90px 10px;
+		transform: skew(-15deg);
+	}
+	
+	@media (min-width: 768px) {
+		
+		#page-header .page-header-title { 
+			padding: 210px 0 74px;
+		}
+		
+		#page-header .page-header-title {
+			font-size: 45px;
+		}	
+		
+		
+		
+	}
+	
+	@media (min-width: 991px) {
+	
+		#page-header .page-header-title { 
+			padding: 290px 0 134px;
+		}
+	
+	}

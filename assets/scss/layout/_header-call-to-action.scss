@@ -1,0 +1,44 @@
+
+/* ==========================================================================
+   =Header call to action 
+   ========================================================================== */
+	
+	#header-button { 
+		position: relative;
+		background-clip: padding-box;
+		display: inline-block;
+		padding: 3px 30px;	
+		border: 2px solid $color-text-link-hover;
+		border-radius: 25px;
+		margin: 0 0 0 25px;
+		background-color: $color-text-link-hover;
+		color: #ffffff;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		cursor: pointer;
+		-webkit-appearance: none;
+		transition: .3s all ease;
+	}
+	
+	#header-button:focus,
+	#header-button:hover {
+		border-color: $color-text-link-hover;
+		background-color: transparent;
+		color: $color-text-link-hover;	
+	}
+
+	#header-button:active {
+		border-color: $color-text-link-active;
+		background-color: $color-text-link-active;
+		color: #ffffff;
+	}
+	
+	@media (min-width: 1200px) {
+		
+		#header-button { 
+			margin: 0 0 0 45px;
+		}
+		
+	}

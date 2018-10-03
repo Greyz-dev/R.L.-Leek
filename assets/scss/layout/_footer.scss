@@ -1,0 +1,26 @@
+
+/* =Footer
+   ========================================================================== */	
+
+	#footer {
+		padding: 45px 0;
+		background-color: $color-background-footer;
+	}
+
+	#footer-bottom {
+		padding: 10px 0;
+		background-color: $color-background-footer-bottom;	
+	}	
+	
+	@media (min-width: 768px) {
+	
+		#footer {
+			padding: 90px 0;
+		}
+
+		#footer-bottom {
+			padding: 20px 0;
+		}	
+	
+	}	
+	

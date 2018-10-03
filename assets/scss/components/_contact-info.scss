@@ -1,0 +1,24 @@
+
+/* =Contact Info
+   ========================================================================== */
+
+	.ewf-contact-info {
+		list-style: none;
+		margin-bottom: 30px;
+	}
+	
+	.ewf-contact-info li {
+		position: relative;
+		margin-bottom: 30px;
+		padding-left: 35px;
+	}
+	
+	.ewf-contact-info li:last-child {
+		margin-bottom: 0;
+	}
+	
+	.ewf-contact-info li i {
+		position: absolute;
+		top: 8px;
+		left: 0;
+	}

@@ -1,0 +1,68 @@
+// Adjust whitespace with horizontal and vertical margin spacing helpers
+/* =Margin
+   ========================================================================== */
+   
+	.ewf-margin-top--none 			{ margin-top: 0; }
+	.ewf-margin-right--none 		{ margin-right: 0; }
+	.ewf-margin-bottom--none 		{ margin-bottom: 0; }
+	.ewf-margin-left--none 			{ margin-left: 0 }
+	.ewf-margin-vertical--none 		{ margin-top: 0; margin-bottom: 0; }
+	.ewf-margin-horizontal--none 	{ margin-right: 0; margin-left: 0; }
+	.ewf-margin-around--none 		{ margin: 0; }
+
+	.ewf-margin-top--xx-small 		{ margin-top: $spacing-xx-small; }
+	.ewf-margin-right--xx-small 	{ margin-right: $spacing-xx-small; }
+	.ewf-margin-bottom--xx-small 	{ margin-bottom: $spacing-xx-small; }
+	.ewf-margin-left--xx-small 		{ margin-left: $spacing-xx-small; }
+	.ewf-margin-vertical--xx-small 	{ margin-top: $spacing-xx-small; margin-bottom: $spacing-xx-small; }
+	.ewf-margin-horizontal--xx-small{ margin-right: $spacing-xx-small; margin-left: $spacing-xx-small; }
+	.ewf-margin-around--xx-small 	{ margin: $spacing-xx-small; }
+
+	.ewf-margin-top--x-small 		{ margin-top: $spacing-x-small; }
+	.ewf-margin-right--x-small 		{ margin-right: $spacing-x-small; }
+	.ewf-margin-bottom--x-small 	{ margin-bottom: $spacing-x-small; }
+	.ewf-margin-left--x-small 		{ margin-left: $spacing-x-small; }
+	.ewf-margin-vertical--x-small 	{ margin-top: $spacing-x-small; margin-bottom: $spacing-x-small; }
+	.ewf-margin-horizontal--x-small { margin-right: $spacing-x-small; margin-left: $spacing-x-small; }
+	.ewf-margin-around--x-small 	{ margin: $spacing-x-small; }
+
+	.ewf-margin-top--small 			{ margin-top: $spacing-small; }
+	.ewf-margin-right--small 		{ margin-right: $spacing-small; }
+	.ewf-margin-bottom--small 		{ margin-bottom: $spacing-small; }
+	.ewf-margin-left--small 		{ margin-left: $spacing-small; }
+	.ewf-margin-vertical--small 	{ margin-top: $spacing-small; margin-bottom: $spacing-small; }
+	.ewf-margin-horizontal--small 	{ margin-right: $spacing-small;  margin-left: $spacing-small; }
+	.ewf-margin-around--small 		{ margin: $spacing-small; }
+
+	.ewf-margin-top--medium 		{ margin-top: $spacing-medium; }
+	.ewf-margin-right--medium 		{ margin-right: $spacing-medium; }
+	.ewf-margin-bottom--medium 		{ margin-bottom: $spacing-medium; }
+	.ewf-margin-left--medium 		{ margin-left: $spacing-medium; }
+	.ewf-margin-vertical--medium 	{ margin-top: $spacing-medium; margin-bottom: $spacing-medium; }
+	.ewf-margin-horizontal--medium 	{  margin-right: $spacing-medium;  margin-left: $spacing-medium; }
+	.ewf-margin-around--medium 		{ margin: $spacing-medium; }
+
+	.ewf-margin-top--large 			{ margin-top: $spacing-large; }
+	.ewf-margin-right--large 		{ margin-right: $spacing-large; }
+	.ewf-margin-bottom--large 		{ margin-bottom: $spacing-large; }
+	.ewf-margin-left--large 		{ margin-left: $spacing-large; }
+	.ewf-margin-vertical--large 	{ margin-top: $spacing-large;  margin-bottom: $spacing-large; }
+	.ewf-margin-horizontal--large 	{ margin-right: $spacing-large;  margin-left: $spacing-large; }
+	.ewf-margin-around--large 		{ margin: $spacing-large; }
+
+	.ewf-margin-top--x-large 		{ margin-top: $spacing-xl-large; }
+	.ewf-margin-right--x-large 		{ margin-right: $spacing-xl-large; }
+	.ewf-margin-bottom--x-large 	{ margin-bottom: $spacing-xl-large; }
+	.ewf-margin-left--x-large 		{ margin-left: $spacing-xl-large; }
+	.ewf-margin-vertical--x-large 	{ margin-top: $spacing-xl-large; margin-bottom: $spacing-xl-large; }
+	.ewf-margin-horizontal--x-large { margin-right: $spacing-xl-large; margin-left: $spacing-xl-large; }
+	.ewf-margin-around--x-large 	{ margin: $spacing-xl-large; }
+
+	.ewf-margin-top--xx-large 		{ margin-top: $spacing-xxl-large; }
+	.ewf-margin-right--xx-large 	{ margin-right: $spacing-xxl-large; }
+	.ewf-margin-bottom--xx-large 	{ margin-bottom: $spacing-xxl-large; }
+	.ewf-margin-left--xx-large 		{ margin-left: $spacing-xxl-large; }
+	.ewf-margin-vertical--xx-large 	{ margin-top: $spacing-xxl-large; margin-bottom: $spacing-xxl-large; }
+	.ewf-margin-horizontal--xx-large{ margin-right: $spacing-xxl-large; margin-left: $spacing-xxl-large; }
+	.ewf-margin-around--xx-large 	{ margin: $spacing-xxl-large; }
+	   

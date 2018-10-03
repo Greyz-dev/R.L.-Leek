@@ -1,0 +1,47 @@
+
+/* =Headline
+   ========================================================================== */
+
+	.ewf-headline { margin-bottom: 60px; }
+	
+	.ewf-headline__title:after {
+		clear: both;
+		content: " ";
+		display: block;
+		font-size: 0;
+		height: 0;
+		visibility: hidden;
+	}  
+	
+	.ewf-headline__subtitle {
+		margin-bottom: 0;
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: 300;
+	}
+	
+	.ewf-headline__title {
+		position: relative;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	
+		
+	.ewf-headline__title:before {
+		position: absolute;
+		left: 0;
+		bottom: -25px;
+		width: 90px;
+		border-top: 1px solid $color-text-accent-1;
+		content: '';
+	}	
+	
+	@media (min-width: 992px) {
+	
+		.ewf-headline { margin-bottom: 90px; }
+	
+	}	
+	

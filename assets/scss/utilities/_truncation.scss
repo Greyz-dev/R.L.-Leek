@@ -1,0 +1,22 @@
+// Truncate long texts
+/* =Truncation
+   ========================================================================== */
+
+	.ewf-truncate {
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+	.ewf-truncate--25 {
+	  max-width: 25%;
+	}
+	
+	.ewf-truncate--50 {
+	  max-width: 50%;
+	}
+	
+	.ewf-truncate--75 {
+	  max-width: 75%;
+	}

@@ -1,0 +1,31 @@
+// Float / clear / clearfix Helpers
+/* =Floats
+   ========================================================================== */
+
+	 /*
+	 * 1. Clearfix hack 
+	 */
+	.ewf-clearfix:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+
+	.ewf-clear {
+		clear: both;
+	}
+
+	.ewf-float--left {
+		float: left;
+	}
+
+	.ewf-float--none {
+		float: none;
+	}
+
+	.ewf-float--right {
+		float: right;
+	}

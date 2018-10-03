@@ -1,0 +1,128 @@
+ 
+/* =Testimonial
+   ========================================================================== */
+
+    .ewf-testimonial {
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.ewf-testimonial:after {
+		clear: both;
+		content: " ";
+		display: block;
+		font-size: 0;
+		height: 0;
+		visibility: hidden;
+	}  
+	
+	.ewf-testimonial *:last-child {
+		margin-bottom: 0;
+	}		
+
+	.ewf-testimonial__cite {
+		position: relative;
+		margin: 30px 0;
+	}
+	
+	.ewf-testimonial__cite:first-child {
+		margin-top: 0;
+	}
+	
+	.ewf-testimonial__cite:after {
+		clear: both;
+		content: " ";
+		display: block;
+		font-size: 0;
+		height: 0;
+		visibility: hidden;
+	}  
+	
+	.ewf-testimonial__cite-avatar {
+		border-radius: 15px;
+		float: left;
+		margin-right: 30px;
+	}
+	
+	.ewf-testimonial__cite-name {
+		margin-bottom: 0;
+		padding-top: 20px;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	
+	.ewf-testimonial__cite-about {
+		margin-bottom: 0;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	
+	.ewf-testimonial__content {
+		margin: 30px 0;
+	}
+	
+	.ewf-testimonial__quote i {
+		font-size: 46px;
+		color: $color-text-accent-1;
+	}
+	
+/* =Testimonial Slider
+   ========================================================================== */   
+	
+	.ewf-testimonial-slider { 
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.ewf-testimonial-slider .ewf-testimonial {
+		margin-bottom: 30px;
+	}
+	
+	.ewf-testimonial-slider__slides {
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+	.ewf-testimonial-slider__slides li {}	
+
+	.ewf-testimonial-slider__pager {}
+
+	.ewf-testimonial-slider__pager .slick-dots {
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+	.ewf-testimonial-slider--pager-left .ewf-testimonial-slider__pager .slick-dots { text-align: center; }
+	
+	.ewf-testimonial-slider--pager-right .ewf-testimonial-slider__pager .slick-dots { text-align: right; }
+	
+	.ewf-testimonial-slider__pager .slick-dots li {
+		position: relative;
+		z-index: 2;
+		display: inline-block;
+		padding: 5px;
+	}	
+
+	.ewf-testimonial-slider__pager .slick-dots li.slick-active {}
+
+	.ewf-testimonial-slider__pager .slick-dots li button{
+		display: block;
+		padding: 0;
+		width: 14px;
+		height: 14px;
+		border: 2px solid transparent;
+		border-radius: 50%;
+		cursor: pointer;
+		outline: none;
+		color: transparent;
+		background-color: $color-text-accent-2;
+		background-clip: padding-box;
+		font-size: 0;
+		line-height: 0;
+	}
+
+	.ewf-testimonial-slider__pager .slick-dots li.slick-active button {
+		border-color: $color-text-accent-1;
+		background-color: transparent;
+	}	
+	

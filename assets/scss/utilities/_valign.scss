@@ -1,0 +1,22 @@
+// usage <div class="row ewf-valign--top"> ... </div>
+/* =Valign
+   ========================================================================== */
+
+	@media (min-width: 991px) {
+   
+		.ewf-valign--top {
+			display: flex;
+			align-items: flex-start;	
+		}
+		
+		.ewf-valign--center {
+			display: flex;
+			align-items: center;
+		}  
+		
+		.ewf-valign--bottom {
+			display: flex;
+			align-items: flex-end;
+		}  
+   
+	}

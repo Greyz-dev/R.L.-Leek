@@ -1,0 +1,144 @@
+
+/* ==========================================================================
+   =Widgets: Custom Widgets
+   ========================================================================== */
+   
+/* =Social Media  Widget
+   ========================================================================== */	
+	
+	.ewf-widget_social_media {}
+	
+	.ewf-social-links {
+		margin-bottom: 0;
+	}
+	
+	/*
+	 * 1. Clearfix hack 
+	 */
+	 
+	.ewf-social-links:after {	/* 1 */
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+   
+	a.ewf-social-icon {
+		display: inline-block;
+		margin-right: 10px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	
+	a.ewf-social-icon:last-child { margin-right: 0; }
+
+	a.ewf-social-icon:hover,
+	a.ewf-social-icon:focus { 
+		color: $color-text-link-hover;
+		border-color: $color-text-link-hover; 	
+	}
+	
+	a.ewf-social-icon:active { 
+		color: $color-text-link-active;
+		border-color: $color-text-link-active;	
+	}
+	
+	a.ewf-social-icon i {
+		font-size: 18px;		
+		line-height: 1;
+	}
+
+	@media (min-width: 768px) {
+		
+		#footer-bottom-widget-area-2 .ewf-widget_social_media {
+			text-align: right;			
+		}
+		
+	}	
+		
+/* =Contact Info  Widget
+   ========================================================================== */	
+
+	.ewf-widget_contact_info {}
+	
+/* =Recent Posts with Images Widget
+   ========================================================================== */	
+
+	.ewf-widget_recent_entries {}
+	
+	.ewf-widget_recent_entries ul { list-style: none; }
+	
+	.ewf-widget_recent_entries ul li:not(:last-child) {
+		margin-bottom: 15px;
+	}
+	
+	.ewf-widget_recent_entries ul li a {
+		display: block;
+	}
+	
+	.ewf-widget_recent_entries ul li img {
+		display: none;
+	}	
+
+	@media (min-width: 991px) {
+		
+		.ewf-widget_recent_entries ul li img {
+			border-radius: 15px;
+			margin-right: 15px;
+			width: 90px;
+			height: 90px;
+			margin-bottom: 15px;
+			display: inline;
+		}	
+	
+		.ewf-widget_recent_entries ul li { 
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+		
+		.ewf-widget_recent_entries ul li img {
+			margin-bottom: 0;
+		}
+		
+	}	
+	
+/* =Author Box Widget
+   ========================================================================== */
+
+	.ewf-widget_author_box {}
+	
+	.ewf-widget_author_box .author-bio-avatar {
+		margin-bottom: 30px;
+	}
+	
+	.ewf-widget_author_box .author-bio {
+		background-color: $color-background-general;
+		border-radius: 15px;
+		padding: 30px;
+	}
+	
+	.ewf-widget_author_box .author-bio-avatar img {
+		border-radius: 15px;
+	}
+	
+	.ewf-widget_author_box .author-bio-name {
+		line-height: 1;
+		margin-bottom: 15px;
+	}
+	
+	.ewf-widget_author_box .author-bio-info *:last-child {
+		margin-bottom: 0;
+	}
+
+/* =Newsletter Subscribe Widget
+   ========================================================================== */   
+   
+   .ewf-widget_newsletter_subscribe {}
+   
+	#footer .ewf-widget_newsletter_subscribe input[type="email"] {
+	   background-color: #ffffff;
+	}
+   
