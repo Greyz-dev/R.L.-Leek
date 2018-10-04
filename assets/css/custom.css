@@ -10,22 +10,22 @@
 
 @font-face {
     font-family: Product Sans;
-    src: url(../assets/fonts/product-sans-regular.ttf);
+    src: url(../fonts/product-sans-regular.ttf);
     }
     
 @font-face {
     font-family: Product Sans;
-    src: url(../assets/fonts/product-sans-bold.ttf);
+    src: url(../fonts/product-sans-bold.ttf);
     }
 
 @font-face {
     font-family: Product Sans;
-    src: url(../assets/fonts/product-sans-italic.ttf);
+    src: url(../fonts/product-sans-italic.ttf);
     }
 
 @font-face {
     font-family: Product Sans;
-    src: url(../assets/fonts/product-sans-bold-italic.ttf);
+    src: url(../fonts/product-sans-bold-italic.ttf);
     }
 
 strong {
