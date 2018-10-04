@@ -7,6 +7,10 @@
 	 * changes to current css in this file.
      */
      
+strong {
+    font-weight: 900;
+}
+
 .headerlogo {
     width: 80%;
     padding-top: 14px;
@@ -15,4 +19,58 @@
 #logo {
     margin-top: 14px;
     width: 80%;
+}
+
+.no-btn-mar {
+    margin-bottom: 0;
+}
+
+.ewf-btn-under {
+    position: relative;
+    background-clip: padding-box;
+    display: inline-block;
+    /* padding: 8px 30px; */
+    border-radius: 25px;
+    /*margin-bottom: 30px;*/
+    /* background-color: #ffffff; */
+    color: #666666 !important;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    font-size: 15px;
+}
+
+.ewf-btn-under:hover {
+    padding-left: 15px;
+    color: #000000 !important;
+}
+
+.p-btn-bottom {
+    margin-bottom: 15px;
+}
+
+.author-bio {
+    padding-left: 0 !important;
+}
+
+#footer-bottom {
+    background-color: #000000 !important;
+}
+
+#back-to-top {
+    background-color: #ffffff;
+    transition: all .3 ease-in-out;
+    color: #000000;
+}
+
+#back-to-top:hover {
+    background-color: #eeeeee;
+    color: #000000 !important;
+    margin-bottom: 5px;
 }
