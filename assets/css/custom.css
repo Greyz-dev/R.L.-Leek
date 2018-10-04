@@ -7,6 +7,27 @@
 	 * changes to current css in this file.
      */
      
+
+@font-face {
+    font-family: Product Sans;
+    src: url(../assets/fonts/product-sans-regular.ttf);
+    }
+    
+@font-face {
+    font-family: Product Sans;
+    src: url(../assets/fonts/product-sans-bold.ttf);
+    }
+
+@font-face {
+    font-family: Product Sans;
+    src: url(../assets/fonts/product-sans-italic.ttf);
+    }
+
+@font-face {
+    font-family: Product Sans;
+    src: url(../assets/fonts/product-sans-bold-italic.ttf);
+    }
+
 strong {
     font-weight: 900;
 }
