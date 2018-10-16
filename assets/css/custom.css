@@ -92,3 +92,12 @@ strong {
     color: #000000 !important;
     margin-bottom: 5px;
 }
+
+.p-margin {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
