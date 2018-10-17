@@ -29,6 +29,14 @@ strong {
     font-weight: 900;
 }
 
+.center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 .headerlogo {
     width: 80%;
     padding-top: 14px;
@@ -100,4 +108,25 @@ strong {
 
 .underline {
     text-decoration: underline;
+}
+
+.hiring-bottom {
+    padding-bottom: 0;
+}
+
+.ewf-btn-hiring {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.twenty-top {
+    margin-top: 30px !important;
+}
+
+.hundred-top {
+    margin-top: 100px !important;
+}
+
+.hundred-bottom {
+    margin-bottom: 100px !important;
 }
