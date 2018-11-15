@@ -131,6 +131,14 @@ strong {
     margin-bottom: 100px !important;
 }
 
+.hundred-top {
+    margin-top: 100px !important;
+}
+
 .fifty-bottom {
     margin-bottom: 50px !important;
+}
+
+.fifty-top {
+    margin-top: 50px !important;
 }
