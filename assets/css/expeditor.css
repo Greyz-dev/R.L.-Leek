@@ -2196,7 +2196,7 @@ ul.ewf-checklist li:first-child {
   color: #ffffff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   margin-bottom: 0;
-  background-color: #e75748;
+  background-color: #474747;
 }
 
 #mobile-menu li {
@@ -2267,7 +2267,7 @@ ul.ewf-checklist li:first-child {
 }
 
 #mobile-menu .mobile-menu-submenu-arrow:hover {
-  background-color: #e75748;
+  background-color: #474747;
 }
 
 /* ==========================================================================
@@ -2275,7 +2275,7 @@ ul.ewf-checklist li:first-child {
    ========================================================================== */
 #mobile-menu-trigger {
   display: inline-block;
-  color: #e75748;
+  color: #474747;
   margin-left: 10px;
 }
 
@@ -2305,7 +2305,7 @@ ul.ewf-checklist li:first-child {
 
 #custom-search-button {
   display: inline-block;
-  color: #e75748;
+  color: #474747;
 }
 
 #custom-search-button i {

@@ -37,6 +37,17 @@ strong {
     text-transform: uppercase;
 }
 
+@media (max-width: 766px) {
+    .headerlogo {
+        width: 50% !important;
+        padding-top: 0px !important!;
+    }
+    #logo {
+        margin-top: 0px !important;
+        width: 50% !important;
+    }
+}
+
 .headerlogo {
     width: 80%;
     padding-top: 14px;
